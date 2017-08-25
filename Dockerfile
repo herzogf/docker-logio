@@ -1,4 +1,4 @@
-FROM node:8.4
+FROM node:6-wheezy
 
 RUN cd /root && npm install -g log.io --user 'root' && npm cache clear && mv ~/.log.io /home/node/
 
